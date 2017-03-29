@@ -1,0 +1,286 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    word-wrap: break-word; /*slaga se za da ne se chupi izrechenieto ili dalga duma kolkoto i da e dalgo(a)*/
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.site-header {
+    background: url("img/Layer-759_02.jpg");
+    background-size: cover;
+    min-height: 400px; /*za da izliza header-a normalno*/
+}
+
+nav.top-navigation {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+nav.top-navigation ul {
+    background: rgba(199, 157, 99, .9); /*tuk backgrounda e polu-prozrachen + vnimavai kade slagash background-a!!!*/
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav.top-navigation ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav.top-navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav.top-navigation ul li a:hover {
+    color: #f5c686;
+}
+
+nav.top-navigation ul li a.selected {
+    color: #f5c686;
+}
+
+.slider {
+    text-align: center;
+}
+
+.slider h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px black;
+    font-size: 3em;
+    margin: 70px;
+}
+
+.slider p {
+    color: #ffffff;
+    width: 300px;
+    margin: 0 auto; /*za da se pokazva vinagi na centara*/
+    padding: 10px;
+    background: rgba(150, 150, 150, 0.3);
+    text-shadow: 0 0 15px black;
+    box-shadow: 0px 0px 5px 5px rgba(150, 150, 150, 0.3);
+}
+
+.slider a.slider-button {
+    display: inline-block;
+    background: #2f2f2f;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #f5c686;
+    border-radius: 10px;
+}
+
+.slider .slider-button .fa-chevron-right {
+    color: #f5c686;
+}
+
+.slider a.slider-button:hover, section.slider .slider-button:hover .fa-chevron-right {
+background: #f5c686;
+color: #2f2f2f;
+}
+
+
+.industries {
+    text-align: center; /*centrira se ne samo texta - no i drugoto*/
+    max-width: 1300px; /*za da izlizat po 3 section-a samo - a ne 4+*/
+    margin: 0 auto; /*za da se pokazva vinagi na centara*/
+}
+
+.industries article {
+    width: 350px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top; /*za da se podredyat po vertikalata articles*/
+}
+
+.industries .icon {
+    width: 45px;
+    height: 45px;
+    line-height: 45px; /*za da se centrira vertikalno*/
+    font-size: 2em;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    float: left;
+}
+
+.industries article h2 {
+    text-align: left;
+    margin-left: 64px;
+    font-size: 1.2em;
+
+}
+
+.industries article p {
+    text-align: left;
+    margin-left: 64px;
+
+}
+
+.mission {
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("img/steel-bg.jpg") no-repeat center; /*pravi se gradient varhu kartinka - i ya pravi po-tamna - byalo 60%*/
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.mission h1 {
+    color: #f5c686;
+}
+
+.mission h2 {
+    color: #000;
+}
+
+.benefits {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/background-choose-us.jpg") no-repeat center; /*pravi se gradient varhu kartinka - i ya pravi po-tamna - cherno 70%*/
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.benefits h1 {
+    font-size: 1.2em;
+}
+
+.benefits article {
+    width: 300px;
+    border: 2px solid #f5c686;
+    display: inline-block;
+    margin: 10px;
+}
+
+.benefits article p {
+    text-align: justify;
+}
+
+.benefits article a {
+    display: block; /*pravi se block za da moje da se klika vsichko otstrani na bukvite - a href stava blokov element*/
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.benefits article a:hover {
+    color: #000;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+section.testimonials {
+    background: url("img/consulting-woman.jpg");
+    background-size: cover;
+    text-align: right;
+}
+
+article.testimonial {
+    background: rgba(255, 255, 255, 0.5);
+    width: 500px;
+    display: inline-block; /*pravi se da e inline block za da raboti text-align gore*/
+    margin: 50px 20px 10px 0;
+    padding: 10px;
+}
+
+article.testimonial .author { /*zabeleji che .author e s interval!!!    */
+    background: #111a5a;
+    color: white;
+    min-height: 200px;
+    padding: 10px;
+}
+
+article.testimonial .author .position {
+    color: darkgrey;
+    font-size: 0.8em;
+}
+
+.position .name {
+    color: #fff;
+    text-align: left;
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+.partners {
+    text-align: center;
+}
+
+.partners ul li {
+    display: inline-block; /*slaga se v li - A NE V UL!!!*/
+    vertical-align: middle;
+}
+
+.site-footer {
+    background: black;
+    text-align: center;
+    /*text-align: left;*/
+}
+
+.site-footer section {
+    color: white;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top; /*da se centrirat po gornata chast na parent-a*/
+    text-align: left;
+}
+
+.site-footer .consulting p {
+    margin-left: 30px;
+    text-align: left;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    font-size: 2em;
+    margin: 5px;
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+.site-footer .extra-links .first-column {
+    margin-left: 30px;
+}
+
+.site-footer .extra-links div {
+    vertical-align: top;
+    display: inline-block;
+    width: calc(50% - 40px); /*za da e maximalno tochno*/
+    /*width: 40%;*/
+}
+
+.site-footer .extra-links a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 5px;
+}
+
+.site-footer .instagram-widget img {
+    width: 70px;
+    height: 70px;
+}
+
+.site-footer .instagram-widget ul li {
+    display: inline-block;
+}

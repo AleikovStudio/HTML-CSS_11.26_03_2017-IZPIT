@@ -1,0 +1,148 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    background: rgba(24, 56, 65, 0.88);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    top: -280px;
+    left: -100px;
+}
+
+img {
+    position: relative;
+    top: -14px;
+    left: 40px;
+}
+
+form {
+    border-radius: 15px;
+    width: 1000px;
+    height: 600px;
+    margin: 1px auto;
+    background-color: #FAFAFA;
+    padding: 10px 20px;
+    box-shadow: 9px 9px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #667;
+    margin: 0;
+}
+
+input {
+    border: 1px solid #FAFAFA;
+    border-bottom: 2px solid #32312D;
+    padding: 5px 8px;
+    outline: none;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    background: #FAFAFA;
+}
+
+input {
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+textarea {
+    margin: 0;
+    height: 127px;
+}
+
+.icon-case {
+    width: 38px;
+    float: left;
+    background: #fafafa;
+    border-bottom: 2px solid #32312D;
+    height: 38px;
+    text-align: left;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+i {
+    color: #535E66;
+}
+.left-contact, .right-contact {
+    width: 250px;
+    float: right;
+    box-sizing: border-box;
+    padding: 0 15px 0 0;
+}
+
+.right-contact {
+    position: relative;
+    top: -55px;
+    right: 40px;
+    float: right;
+    padding: 0 0 0 15px;
+    border-right: none;
+}
+
+.button-continue {
+    background: #535E66;
+    font-family: "Open Sans";
+    font-weight: 900;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    font-size: 1.1em;
+
+}
+
+div.info {
+    margin-top: -90px;
+}
+
+div.info > h1 {
+    position: relative;
+    top: 200px;
+    right: -150px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.4em;
+    color: #9E9E9E;
+}
+
+div.info > h2 {
+    position: relative;
+    color: #9E9E9E;
+    top: 200px;
+    right: -880px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.4em;
+}
+
+div.info > h3 {
+    font-size: 2.5em;
+    position: relative;
+    top: 200px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.6em;
+    right: -1040px;
+    color: #7D7D7D;
+}

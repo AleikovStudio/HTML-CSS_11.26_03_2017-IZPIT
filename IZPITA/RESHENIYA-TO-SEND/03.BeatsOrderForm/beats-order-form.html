@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beats Order Form</title>
+    <link rel="stylesheet" href="beats-order-form.css">
+</head>
+<body>
+<div class="info">
+    <h1>beats solo 3 wireless</h1>
+    <h2>headphones</h2>
+    <h3>$279</h3>
+</div>
+<form method="post" enctype="multipart/form-data">
+    <img src="img/beats-img.png" alt="beats">
+    <div class="wrapper">
+        <div class="left-contact">
+            <div class="form-group">
+
+                <label class="icon-case" for="society"><i class="fa fa-address-card-o"></i></label>
+                <input type="text" name="society" placeholder="address" id="society" required />
+
+            </div>
+
+            <div class="form-group">
+                <label class="icon-case" for="postal"><i class="fa fa-lock"></i></label>
+                <input type="text" name="postal" id="postal" placeholder="csv" required/>
+                <button class="button-continue">continue</button>
+            </div>
+        </div>
+
+        <div class="right-contact">
+
+            <div class="form-group">
+                <label class="icon-case" for="city"><i class="fa fa-user"></i></label>
+                <input type="text" name="city"  placeholder="name on card" id="city" required/>
+            </div>
+
+            <div class="form-group">
+                <label class="icon-case" for="info"><i class="fa fa-globe"></i></label>
+                <input type="text" name="info" id="info" required placeholder="country"/>
+
+            </div>
+
+            <div class="form-group">
+                <label class="icon-case" for="comment"><i class="fa fa-credit-card"></i></label>
+                <input type="text" name="comment" id="comment" required placeholder="card number"/>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

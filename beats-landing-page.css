@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900 ');
+
+* {
+    word-wrap: break-word; /*slaga se za da ne se chupi izrechenieto ili dalga duma kolkoto i da e dalgo(a)*/
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+/*.site-header {*/
+/*!*background: url("img/Layer-759_02.jpg");*!*/
+/*!*background-size: cover;*!*/
+/*min-height: 400px; !*za da izliza header-a normalno*!*/
+/*}*/
+
+nav.top-navigation {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+nav.top-navigation ul {
+    /*background: rgba(199, 157, 99, .9); !*tuk backgrounda e polu-prozrachen + vnimavai kade slagash background-a!!!*!*/
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav.top-navigation ul li {
+    display: inline-block;
+    padding: 55px;
+}
+
+nav.top-navigation ul li a {
+    /*color: #000;*/
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-weight: 900;
+    color: #a5a5a5;
+}
+
+nav.top-navigation ul li a:hover {
+    color: #434343;
+    border-bottom: 2px solid #a5a5a5;
+}
+
+.banners {
+    display: flex;
+    flex-direction: row;
+    /*text-align: left;*/
+}
+
+.portfolio-banner {
+    background: #fff;
+    padding: 100px;
+    width: 40%;
+}
+
+/*.portfolio-banner > img {*/
+/*float: left;*/
+/*margin-top: 35px;*/
+/*}*/
+
+/*.portfolio-banner > h1 {*/
+/*font-size: 1.2em;*/
+/*text-transform: uppercase;*/
+/*padding-bottom: 20px;*/
+/**/
+/*!*text-align: left;*!*/
+/*}*/
+
+.results-banner {
+    /*background: url("img/beats-landing-main.jpg");*/
+    padding: 50px;
+    width: 60%;
+    color: #ffffff;
+}
+
+.results-banner > img {
+    float: right;
+    width: 700px;
+    height: 693px;
+}
+
+.portfolio-banner h1 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.portfolio-banner p {
+    color: #000;
+    width: 450px;
+}
+
+.portfolio-banner a.slider-button {
+    display: inline-block;
+    background: #FF0000;
+    color: #ffffff;
+    padding: 10px 40px 10px 40px;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+    letter-spacing: 2px;
+}
+
+.portfolio-banner a.slider-button:hover, section.slider .slider-button:hover .fa-chevron-right {
+    background: #FF0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bordered {
+    background: #FBFCFF;
+}
+
+.bordered img {
+    padding: 50px;
+}
+
+.content-wrap {
+    margin: 80px 0 0;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.content-wrap.content-wrap-full {
+    display: block;
+}
+
+.content-wrap h3 {
+    font-size: 4em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #37282b;
+    font-family: "Open Sans";
+    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.content-wrap h4 {
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #37282b;
+    font-family: "Open Sans";
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+h4 span {
+    font-weight: 900;
+}
+
+h5 span {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.module-text a.slider-button {
+    background: #FF0000;
+    text-align: left;
+    color: #ffffff;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+    letter-spacing: 2px;
+}
+
+.module-text {
+    margin-left: 100px;
+    width: 400px;
+}
+
+
+.vanners {
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-vanner {
+    width: 50%;
+    color: #ffffff;
+}
+
+.portfolio-vanner > img {
+    float: left;
+}
+
+.results-vanner {
+    background: #dadada;
+    padding: 50px;
+    width: 60%;
+    color: #000;
+}
+
+.results-vanner > img {
+    float: right;
+}
+
+.results-vanner > h3 {
+    font-size: 7.1em;
+    font-weight:900;
+    text-transform: uppercase;
+}
+
+.results-vanner > h4 {
+    font-size: 2em;
+    font-weight:900;
+}
+
+.results-vanner > h4 span {
+    font-size: 1.1em;
+    font-weight:900;
+    text-transform: uppercase;
+    color:red;
+}
+
+
+.mission {
+    text-align: center;
+    background: #575757;
+    padding: 10px 0;
+    height: 350px;
+}
+
+.mission h1 {
+    font-family:"Open Sans";
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.mission img{
+    position: relative;
+    top:100px;
+    right:300px;
+}
+
+.mission h1 span{
+    position: relative;
+    font-weight: 900;
+}
+
+.mission h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+}

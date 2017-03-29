@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    word-wrap: break-word;
+}
+
+body {
+    background: #EAF0F1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 1100px;
+}
+
+section > article {
+    background: #F9FAFB;
+    width: 400px;
+    height: 450px;
+    margin-top: 80px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 9px 4px -3px rgba(0, 0, 0, 0.16);
+    opacity: 0.7;
+
+}
+
+article > img {
+    width: 60px;
+    height: 60px;
+}
+
+article > h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+/*card description*/
+article > p {
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+article > h2 {
+    margin-top: 60px;
+    font-weight: 200;
+}
+
+article.premium > h2 {
+    color: #FF4D00;
+}
+
+article.plus > h2 {
+    color: #FF4D00;
+}
+
+article > button {
+    margin-top: 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 14px 60px 14px 60px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+article.free > button {
+    background: #93DDE8;
+}
+
+article.premium > button {
+    background: #FF4D00
+}
+
+article.plus > button {
+    background: #FF4D00
+}
+
+article.free > button:hover {
+    box-shadow: 8px 9px 11px 1px rgba(0, 0, 0, 0.08);
+}
+
+article.premium > button:hover {
+    box-shadow: 8px 9px 11px 1px rgba(0, 0, 0, 0.08);
+}
+
+article.plus > button:hover {
+    box-shadow: 8px 9px 11px 1px rgba(0, 0, 0, 0.08);
+}
+
+article > button > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+article:hover {
+    opacity: 1;
+}

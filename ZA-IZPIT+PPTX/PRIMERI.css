@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*font import locally*/
+@font-face {
+    font-family: SketchRockwell;
+    src: url('SketchRockwell-Bold.ttf');
+}
+
+/*font import - from the web*/
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+
+/*text-shadow*/
+h1 {
+    font-family: SketchRockwell;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+/*or this way:*/
+h1 {
+    font: bold 16px/20px SketchRockwell, Arial;
+}
+
+/*in body*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/*in header*/
+.header {
+    background: url("images/car-future.jpg") no-repeat center;
+    background-size: cover; /*Za da izliza na cyal ekran*/
+    height: 700px;
+}
+
+.header h1 {
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 80px 0 0 20px;
+    font-weight: 900;
+    color: #b38575;
+    text-transform: uppercase;
+}
+
+/*in navigation*/
+nav {
+    margin: 20px;
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 7px;
+    height: 20px;
+    line-height: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+}
+
+nav ul li a:link, a:active, a:visited {
+    color: #333333;
+    padding: 5px 7px 10px 7px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #b38575;
+}
+
+/*first-of-type*/
+.content article p:first-of-type:first-letter {
+    font-size: 32px;
+    color: #b38575;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*clear*/
+.content article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*in footer*/
+footer {
+    background: rgba(150, 255, 150, 0.5);
+}
+
+footer span {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: #333333;
+}
+
+/*in button*/
+.btn {
+    color: #ffffff;
+    background: none;
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #000000;
+    border-color: #000000;
+    cursor: pointer;
+
+}
+
+/*border style*/
+div {
+    border: 4px solid #0053ff
+}
+
+/*border styles*/
+.border {
+    width: 160px;
+    height: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0053ff;
+    border-radius: 15px;
+    border-top-left-radius: 30px;
+    border-bottom-style: dotted;
+    border-left-color: #89af4c;
+    box-shadow: 8px 5px 5px #888;
+}
+
+/*sprites*/
+#home {
+    width: 46px;
+    height: 44px;
+    background: url("/images/img_navsprites.gif") 0 0;
+    vertical-align: middle;
+}
+
+/*za izravnyavane */
+div{
+box-sizing: border-box;
+}

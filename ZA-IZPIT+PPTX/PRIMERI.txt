@@ -1,0 +1,53 @@
+Font Awesome CDN: 
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+<i class="fa fa-user" aria-hidden="true"></i>
+
+font-family: Oxygen, sans-serif;
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+BOX-SIZING:
+box-sizing: border-box;
+PRIMER: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-sizing2
+KOGATO SE STILIRAT FORMI SE IZPOLZVA V NACHALOTO NA CSS:
+
+* {
+    box-sizing: border-box
+}
+//////////////////////////////////////////////////////////////////////////////////////
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+RESPONSIVE:
+
+/*TODO: @media all and (max-width: 800px) {*/
+
+@media all and (max-width: 800px) {
+
+}
+
+/*TODO: @media all and (max-width: 660px) {*/
+@media all and (max-width: 660px) {
+    
+}
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+1. Primer za footer - 4 elementa podravneni vlyavo: menu decoration - float left + sprites:
+D:\SOFT-UNI\HTML+CSS-2017\04A.15_02_2017\social-media.html
+
+2. Primer za menu s vlojeni ul + li - drop down menu:
+D:\SOFT-UNI\HTML+CSS-2017\04A.15_02_2017\drop-down-menu.html
+
+3. Primer za float (left+right) v stranica:
+D:\SOFT-UNI\HTML+CSS-2017\04A.15_02_2017\floating-elements.html
+
+4. Primer za clear float (clearfix):
+D:\SOFT-UNI\HTML+CSS-2017\04A.15_02_2017\clear-floating.html
+
+5. Cyalosten Landing Page:
+D:\SOFT-UNI\HTML+CSS-2017\05A.22_02_2017\consulting-agency.html
+
+6. Flex-box + flexible image:
+D:\SOFT-UNI\HTML+CSS-2017\07A.08_03_2017\flexbox-order.html

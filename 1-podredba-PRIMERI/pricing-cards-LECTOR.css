@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+
+body {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #EAF0F1;
+}
+
+ul.card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*za da se centrirat elementite!!!!*/
+    margin-top: 80px;
+}
+
+li.card {
+    opacity: 0.7;
+    text-align: center;
+    list-style-type: none;
+    background: #F9FAFB;
+    border-radius: 25px;
+    margin-right: 20px;
+    box-shadow: 8px 9px 4px -3px rgba(0, 0, 0, 0.16);
+    height: 600px;
+    width: 25%;
+}
+
+li.card:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+img.card-img {
+    width: 100%;
+    max-width: 70px;
+    padding: 20px;
+}
+
+h2.card-title {
+    font-size: 22px;
+    text-transform: capitalize;
+
+}
+
+p.card-description {
+    font-size: 14px;
+    padding: 40px;
+}
+
+h1.card-price {
+    font-weight: 400;
+    color: #f86932;
+}
+
+h1.free-price {
+    color: #333;
+}
+
+button.primary-cta {
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 45px 10px 45px;
+    border-radius: 30px;
+    color: #fff;
+    background: #f86932;
+    margin-top: 100px;
+}
+
+button.primary-cta:hover{
+    cursor: pointer;
+    background: #fc3507;
+    box-shadow: 8px 9px 4px -3px rgba(0, 0, 0, 0.16);
+
+}
+
+button.secondary-button {
+    background: #83d6e3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

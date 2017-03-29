@@ -1,0 +1,48 @@
+/*TODO: @media all and (max-width: 640px) {*/
+@media all and (max-width: 640px) {
+
+    .nav-primary {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-item {
+        padding: 15px;
+    }
+
+    .solo {
+        text-align: center;
+        padding: 60px 0 50px 0;
+    }
+
+    .second-row {
+        display: block;
+    }
+
+    .mixr-left, .urbeats-right {
+        width: 100%;
+        align-items: center;
+        /*padding: auto;*/
+    }
+
+    .studio {
+        text-align: center;
+    }
+
+    .grid-gallery {
+        text-align: center;
+    }
+
+    .product-img {
+        width: 50%;
+        max-width: 14rem;
+    }
+
+
+    /*.product-img {*/
+    /*!*display: flex;*!*/
+    /*!*flex-direction: column;*!*/
+    /*min-width: 50%;*/
+    /*float: left;*/
+    /*}*/
+}

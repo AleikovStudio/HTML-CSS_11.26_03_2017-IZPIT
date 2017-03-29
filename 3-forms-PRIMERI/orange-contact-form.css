@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=OpenSans:400,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background: #EAF0F1;
+}
+
+form {
+    margin: 130px auto 0 auto;
+    background: #ffffff;
+    max-width: 700px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    border-radius: 10px;
+    box-shadow: 8px 9px 11px 1px rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    background: #FE4E01;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.left {
+    margin-bottom:50px;
+    width: 50%;
+    float:left;
+    padding: 20px;
+}
+
+div.right {
+    margin-bottom:50px;
+    width: 50%;
+    float:right;
+    padding: 20px;
+}
+
+span{
+    color: red;
+}
+
+button {
+    width: 100%;
+    background: #FE4E01;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+button:hover {
+    background: #565656;
+    cursor: pointer;
+}
